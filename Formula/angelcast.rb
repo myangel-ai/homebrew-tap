@@ -1,25 +1,25 @@
 class Angelcast < Formula
   desc "Generate, schedule, and play personalized kid-safe podcasts from the terminal"
   homepage "https://angelq.ai"
-  version "1.0.11"
+  version "1.0.13"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/myangel-ai/angelcast-cli/releases/download/angelcast-cli-v1.0.11/angelcast-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "3d5cf93327bce1de53169a832adc198f41088c9a9349f97241df4b769ff6d575"
+      url "https://github.com/myangel-ai/angelcast-cli/releases/download/angelcast-cli-v1.0.13/angelcast-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "6e3ee6ccf5a245a803c9e5d05b158355e47ad3e7fb7351b619d2a92f135b2559"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/myangel-ai/angelcast-cli/releases/download/angelcast-cli-v1.0.11/angelcast-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "2ebd3450a0afc4632690160a062a88f30e770b17833a172a03dfbf35915d9f04"
+      url "https://github.com/myangel-ai/angelcast-cli/releases/download/angelcast-cli-v1.0.13/angelcast-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "28f3b191835e0451ed2e2c26410cab51540a9da6baa31f8f3638a571a1029835"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/myangel-ai/angelcast-cli/releases/download/angelcast-cli-v1.0.11/angelcast-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "a2b39651a3572bff902fdf77bcde2bc0345e32c33c9c4e160e15a89a09231775"
+      url "https://github.com/myangel-ai/angelcast-cli/releases/download/angelcast-cli-v1.0.13/angelcast-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "df37646d5d8bc2ef219b9a60df32cdcbbcac07942ab2305bbac8ce25ec6e7611"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/myangel-ai/angelcast-cli/releases/download/angelcast-cli-v1.0.11/angelcast-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "a8eb7b472d1ca89f1536f7a8f744a97966efc967d8aeb7309ea7d9ea3597f01c"
+      url "https://github.com/myangel-ai/angelcast-cli/releases/download/angelcast-cli-v1.0.13/angelcast-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "5d00fd67523b8534d91625fa5e94b3b69baf29b68a3c58a2015efd6862d48978"
     end
   end
   license "Apache-2.0"
